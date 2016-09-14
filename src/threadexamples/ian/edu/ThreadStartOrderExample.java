@@ -7,8 +7,8 @@ public class ThreadStartOrderExample {
 
     public static void main(String arg[]) {
 
-        Thread th1 = new Thread (new NamingThread("thread1")) ;
-        Thread th2 = new Thread (new NamingThread("thread2"));
+        Thread th1 = new Thread (new NamingThread("Pep the Great")) ;
+        Thread th2 = new Thread (new NamingThread("Mourinho the tool"));
         Thread th3 = new Thread (new NamingThread()) ;
 
         System.out.println ("Ready to roll ...");
