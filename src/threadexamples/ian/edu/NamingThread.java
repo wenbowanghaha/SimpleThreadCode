@@ -5,22 +5,16 @@ package threadexamples.ian.edu;
  */
 public class NamingThread implements Runnable {
 
-   // private Thread thr;
     private String name;
     public  NamingThread () {
        name = "Anon";
     }
     public NamingThread (String threadName) {
-        //thr = new Thread (this, threadName);
         name = threadName;
-        //thr.start();  // calls run
 
     }
-
     @Override
     public void run() {
-
         System.out.println (name + " is " + Thread.currentThread());
-
     }
 }
