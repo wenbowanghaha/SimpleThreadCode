@@ -1,0 +1,11 @@
+Simple Java Thread Examples
+
+A random set of trivial Java threading examples as a basic for understanding and experimentation. Apologies to Manuchester United supporters :)
+
+ThreadStartOrderExample: Uses NamingThread to show the orders threads start in to illustrate scheduling and non-determinism.
+
+ThreadHello: Uses SleepingThread to illustrate how to wake up a sleeping thread
+
+ProducerConsumerExample: Illustrates a  buffer with size  1
+
+BoundedBufferExample: Illustartes a buffer with a configurable size
